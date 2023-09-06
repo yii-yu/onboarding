@@ -1,0 +1,35 @@
+@import '../styles/helpers/variables';
+body,
+html {
+  font-size: 16px;
+  font-family: $font-family-normal;
+  letter-spacing: 0.374px;
+  color: #000;
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+button, .btn{
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.common-empty-top,
+.common-empty-bottom {
+  position: absolute;
+  height: 230px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: right;
+  opacity: 0.7;
+}
+.common-empty-top {
+  background-image: url('./../images/dashboard/bg-dashboard-top.png');
+  top: 0;
+}
+
+.common-empty-bottom {
+  background-image: url('./../images/dashboard/bg-dashboard-bottom.png');
+  bottom: 0;
+}

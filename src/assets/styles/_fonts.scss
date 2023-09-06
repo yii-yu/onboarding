@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'SF UI Display Regular';
+    src: url('fonts/SFUIDisplay-Regular.eot');
+    src: local('SF UI Display Regular'), local('SFUIDisplay-Regular'),
+        url('fonts/SFUIDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/SFUIDisplay-Regular.woff2') format('woff2'),
+        url('fonts/SFUIDisplay-Regular.woff') format('woff'),
+        url('fonts/SFUIDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF UI Display Bold';
+    src: url('fonts/SFUIDisplay-Bold.eot');
+    src: local('SF UI Display Bold'), local('SFUIDisplay-Bold'),
+        url('fonts/SFUIDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/SFUIDisplay-Bold.woff2') format('woff2'),
+        url('fonts/SFUIDisplay-Bold.woff') format('woff'),
+        url('fonts/SFUIDisplay-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF UI Display Medium';
+    src: url('fonts/SFUIDisplay-Medium.eot');
+    src: local('SF UI Display Medium'), local('SFUIDisplay-Medium'),
+        url('fonts/SFUIDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/SFUIDisplay-Medium.woff2') format('woff2'),
+        url('fonts/SFUIDisplay-Medium.woff') format('woff'),
+        url('fonts/SFUIDisplay-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF UI Display Semibold';
+    src: url('SFUIDisplay-Semibold.eot');
+    src: local('SF UI Display Semibold'), local('SFUIDisplay-Semibold'),
+        url('SFUIDisplay-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('SFUIDisplay-Semibold.woff2') format('woff2'),
+        url('SFUIDisplay-Semibold.woff') format('woff'),
+        url('SFUIDisplay-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}

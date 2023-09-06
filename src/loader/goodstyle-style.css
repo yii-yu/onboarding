@@ -1,0 +1,57 @@
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+.flex > div {
+  width: 50%;
+}
+
+.modal-goodstyle {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+ 
+}
+
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 340px;
+  height: 640px;
+}
+
+.close {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  border: 1px solid#e7e7e7;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor:pointer;
+}
+.close:after {
+  display: inline-block;
+  content: '\00d7';
+  font-size: 30px;
+}
+
+.close:hover,
+.close:focus {
+  transform: scale(1.1);
+ 
+}
